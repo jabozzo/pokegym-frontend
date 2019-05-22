@@ -1,0 +1,66 @@
+@import url("roboto.css");
+
+body{
+    background: white;
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.background-red{
+    background-color: rgb(220, 88, 88);
+}
+
+.background-dark-red{
+    background-color: rgb(166, 64, 64);
+}
+
+.background-light-red{
+    background-color: rgb(254, 230, 230);
+}
+#top_container{
+    height: 100px;
+}
+
+#container_logo{
+    height:13.1vh;
+    max-height:13.1vh;
+    padding-left:4vw;
+}
+#img_logo{
+    margin-top:10px;
+    width:auto;
+    height:40px;
+    padding-left:10px;
+}
+#container_title{
+    height:40px;
+    max-height:40px;
+    margin-top:10px;
+    font-size:40px;
+    padding-left:10px;
+    line-height: 50px;
+}
+#container_date{
+    font-size:16px; 
+    padding-left:10px;
+}
+
+#table_pokemons tr:nth-child(1){
+    color:black;
+    background-color: rgb(254, 230, 230);
+}
+
+#table_pokemons tr:nth-child(n+2){
+    color:black;
+    background-color: rgb(254, 230, 230);
+}
+
+#table_pokemons tr:nth-child(n+6){
+    color:rgb(30, 30, 30);
+    background-color:white;
+}
