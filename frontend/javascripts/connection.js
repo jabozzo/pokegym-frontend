@@ -1,4 +1,5 @@
-var base_address = 'PUT-YOUR-API-ROUTE-HERE';
+// Configuration from backend/config.py
+var base_address = 'http://localhost:4040';
 
 $(document).ready(function(){
   add_pokemons_to_list();
@@ -9,7 +10,7 @@ $(document).ready(function(){
 });
 
 function add_pokemons_to_list() {
-  var address = base_address + '/PUT-YOUR-API-ROUTE-HERE'
+  var address = base_address + '/last'
   $.getJSON(address, function(data) {
     $('#table_pokemons tbody').empty()
     for(var i=0;i<data.length;i++){
